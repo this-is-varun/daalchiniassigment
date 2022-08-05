@@ -1,0 +1,12 @@
+.backdrop_listing{
+    height: auto;
+    width: 100vw;
+ }
+ .footer_cover{
+     height: 15vh;
+     width: 100vw;
+     background-color: aqua;
+     position: fixed;
+   left: 0;
+   bottom: 0;
+ }

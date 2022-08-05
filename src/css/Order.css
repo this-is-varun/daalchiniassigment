@@ -1,0 +1,65 @@
+.backdrop_order{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: khaki;
+ }
+.order_box{
+    height: 50%;
+    width: 30%;
+     display: flex;
+    justify-content: center;
+  }
+  .order_end{
+      height: 15%;
+      width: 100%;
+      background-color: seagreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+  }
+  .order_end_left{
+      height: 100%;
+      width: 10%;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .order_end_right{
+    height: 100%;
+    width: 10%;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order_end_left i{
+    font-size: 2rem;
+}
+.order_end_right p{
+    font-size: 1.2rem;
+    font-weight:400;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .order_box{
+         width: 90%;
+     }
+     .order_end_left{
+       
+        width: 30%;
+       
+  
+    }
+    .order_end_right{
+      
+      width: 30%;
+      
+  }
+}
